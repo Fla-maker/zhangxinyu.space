@@ -226,7 +226,7 @@
             background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
             border-radius: 3px;
             width: 0%;
-            animation: progressAnimation 180s linear infinite;
+            animation: progressAnimation 120s linear infinite;
         }
         
         @keyframes progressAnimation {
@@ -361,7 +361,7 @@
             </div>
             <div class="time-info">
                 <span id="currentTime">0:00</span>
-                <span id="totalTime">3:00</span>
+                <span id="totalTime">2:00</span>
             </div>
         </div>
         
@@ -379,8 +379,8 @@
     
     <!-- 音频元素 -->
     <audio id="audioPlayer" loop preload="auto">
-        <!-- 你可以在这里添加你的音乐文件 -->
-        <!-- <source src="your-music-file.mp3" type="audio/mpeg"> -->
+        <source src="background-music.mp3" type="audio/mpeg">
+        <!-- 如果你的音乐文件名不同，请修改上面的文件名 -->
     </audio>
     
     <script>
